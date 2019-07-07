@@ -25,6 +25,7 @@
     "aws-cloudfront-sign": "^2.2.0",
     "aws-sdk": "^2.488.0",
     "multer": "^1.4.1",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.2",
+    "loadash": ">=4.17.11"
   }
 }
