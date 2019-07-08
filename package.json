@@ -9,9 +9,9 @@
     "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
     "prod": "tsc && node ./dist/app.js"
   },
-  "author": "Techshard",
-  "license": "MIT",
-  "homepage": "http://README.md",
+  "author": "Swathi Prasad",
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/swathisprasad/nodejs-serve-content-via-aws-cdn/blob/master/README.md",
   "dependencies": {
     "express": "4.17.1",
     "express-basic-auth": "1.2.0",
