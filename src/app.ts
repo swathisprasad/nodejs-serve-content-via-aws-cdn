@@ -21,16 +21,16 @@ app.listen(port, () => {
 function getUnauthorizedResponse(req) {
   return req.auth
     ? ('Credentials ' + req.auth.user + ':' + req.auth.password + ' rejected')
-    : 'No credentials provided'
+    : 'No credentials provided';
 }
 
 var storage = multer.diskStorage({
   destination: './files',
   filename: function (req, file, cb) {
     crypto.pseudoRandomBytes(16, function (err, raw) {
-      if (err) return cb(err)
+      if (err) return cb(err);
 
-      cb(null, raw.toString('hex') + path.extname(file.originalname))
+      cb(null, raw.toString('hex') + path.extname(file.originalname));
     })
   }
 })
